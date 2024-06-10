@@ -1,0 +1,120 @@
+.open{
+    display: flex !important;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    background-color: #DC911B;
+  
+}
+
+
+
+.menu{
+    flex-direction: row;
+margin-top: 35px;
+}
+.nav{
+   display: flex;
+   width: 943px;
+   padding: 0px 42px;
+}
+.nav ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+a{
+    
+    color: #2D2D2D;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+line-height: 59px;
+letter-spacing: 0px;
+}
+
+.telep{
+    display: flex;
+    justify-content: space-between;
+}
+.tele{
+  margin-top: 20px;
+    width: 14px;
+    height: 14px;
+}
+.phone{
+    display: block;
+}
+.number{
+
+    margin-left: 5px;
+    color: #2D2D2D;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+}
+.buy_phone{
+    
+    text-align: right;
+    color: #2D2D2D;
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    
+    
+}
+.buy_phone::first-line{
+    
+    text-decoration-line: underline;
+  text-decoration-style: dashed;
+}
+.burger{
+    display: none;
+    position: relative;
+    z-index: 50;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30px;
+    height: 18px;
+}
+
+.burger span{
+    height: 2px;
+    width: 80%;
+    transform: scale(1);
+    background-color: #2D2D2D;
+}
+.burger::before, .burger::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #2D2D2D;
+    transition: all 0.3s ease 0s;
+}
+.burger::before{top: 0;}
+.burger::after{bottom: 0;}
+
+.burger.active span {transform: scale(0);}
+.burger.active::before{
+    top: 50%;
+    transform: rotate(-45deg) translate(0,-50%);
+}
+.burger.active::after{
+    bottom: 50%;
+    transform: rotate(45deg) translate(0,50%);
+}
+

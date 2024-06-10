@@ -1,0 +1,1153 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}  
+body{
+    width: 100%;
+    overflow-x: hidden;
+    height: 100%;
+}
+p{
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+h2{
+    -webkit-touch-callout: none;
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+.blok-welcom{
+    
+     background: rgb(220, 145, 27);;
+    width: 100%;
+    height: 687px;
+   
+}
+.contant{
+    display: flex;
+}
+.text_welcome{
+    padding-top: 284px;
+    padding-left: 360px;
+    width: 448px;
+    height: 144px;
+}
+.img_cont{
+    display: block;
+    padding-top: 81px;
+}
+.zagol-one{
+    
+    color: rgb(62, 62, 61);
+    font-family:  "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.zagol-two{
+    color: rgb(62, 62, 61);
+    font-family:  "Roboto", sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+
+.block_services{
+    margin-top:99px ;
+    background-image: url(img/servicesline.svg);
+    background-position: 100px 233px;
+    
+    padding: 60px 0 205px 0;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    
+}
+.all{
+    min-width: 320px;
+    margin: 0 auto;
+    clear: both; 
+}
+.zg_t{
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+
+.phone_ser{
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.bilt_title_img_btn{
+display: flex;
+    margin-top: 58.9px;
+    
+}
+.bilt_title_btn{
+    margin: 75px 141px;
+}
+.cnt{
+   
+    flex-direction: column;
+        margin-bottom: 30px !important;
+}
+.zg_bilt{
+    width: 452px;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.txt_bilt{
+    margin-top: 34px;
+    width:575px ;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn_bilt{
+    margin-top: 38px;
+    display: flex;
+    justify-content: right;
+}
+
+.btn_form{
+    width: 166px;
+height: 39px;
+background-color: white;
+    box-sizing: border-box;
+border: 1px solid rgb(220, 145, 27);
+border-radius: 5px;
+
+
+color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+transition: background-color 1s ease-in-out;
+}
+
+.btn_form:hover{
+    background-color: #DC911B;
+    color: #FFFFFF;
+}
+
+
+
+.bilt_title_img_btn-two{
+    display: flex;
+    margin-top: 58px;
+}
+.bilt_title_img_btn-three{
+    display: flex;
+    margin-top: 45px;
+}
+.bilt_title_img_btn-four{
+    display: flex;
+    margin-top: 55px;
+}
+
+.block_reviews{
+
+    background-color: #3E3E3D;
+    width: 100%;
+    height: 758px;
+}
+
+.bl_cont{
+    display: flex;
+    justify-content: center;
+}
+.title_revi{
+    margin-top: 125px;
+}
+.zgal{
+text-align: center;
+color: rgb(255, 255, 255);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: uppercase;
+}
+.slaider_no_problem{
+margin-top: 106px;
+
+}
+.img_dok{
+    padding-left: 47px;
+}
+.img_dok:hover{
+    transform: scale(1.1);
+}
+.img_dok {
+    transition: all.3s;
+}
+.btn_slaider{
+   margin-left: 450px;
+   margin-top: 40px;
+   display: flex;
+}
+.sl_btn_one{
+    background-color: #C4C4C4;
+    width: 34px;
+    height: 34px;
+    border: none;
+    transition: background-color 1s ease-in-out;
+}
+.sl_btn_two{
+   
+    background-color: #C4C4C4;
+    width: 34px;
+    height: 34px;
+    border: none;
+    transition: background-color 1s ease-in-out;
+}
+.sl_btn_one:hover{background-color: #DC911B;}
+.sl_btn_two:hover{background-color: #DC911B;}
+
+
+.right_btn_revi{
+   margin-left: 220px;
+   margin-top: 15px;
+   
+}
+.see_you{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: uppercase;
+}
+.img_revi{
+    margin-top: 100px;
+    margin-right: 60px;
+}
+
+.block_projects{
+    margin: 76px 462px;
+}
+
+.op{
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.block_p{
+    margin-top: 96px;
+    display: flex;
+    margin-left: 200px;
+}
+
+.zag_proj{
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.txt_numb_proj{
+    margin-top: 89px;
+    color: rgb(111, 111, 110);
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.block_img_proj{
+    position: block;
+  
+    width: 556px;
+height: 312px;
+    background: rgb(220, 145, 27);
+}
+.text_project{
+    position: absolute;
+    margin: 146px auto;
+    margin-left: -10%;
+}
+.titile_btn_proj{
+    margin: 149px 59px;
+}
+.opiym_title{
+    
+    width: 228px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn_opiym{
+    display: flex;
+    justify-content: right;
+    margin-top: 47px;
+}
+.btn_proj{
+    border: none;
+    width: 42px;
+height: 42px;
+background: rgb(220, 145, 27);
+transition: background-color 1s ease-in-out;
+}
+.btn_proj:hover{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(220, 145, 27);
+border: 1px solid rgb(220, 145, 27);
+}
+
+.block_p_two{
+    margin-top: 106px;
+    display: flex;
+    margin-left: 200px;
+}
+.block_img_proj_cart{
+    position: block;
+  
+    width: 556px;
+height: 312px;
+    background-image: url(img/project_two.png) ;
+    background-size: cover;
+}
+.butn_rt{display: flex; justify-content: right;}
+.txt_btn{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(0, 0, 0);
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.icon_btn{
+    margin-left: 10px;
+    width: 9.5px;
+height: 17px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(220, 145, 27); 
+}
+
+.block_news{
+    margin-top: 88px;
+}
+.cont_news{
+    display: flex;
+}
+
+.block_gray_news{
+    display: flex;
+    background: rgb(237, 238, 239);
+    width: 944px;
+height: 360px;
+justify-content: right;
+padding-top: 117px;
+padding-right: 50px;
+
+}
+.news{
+    width: 228px;
+    
+}
+.people_news{
+    margin-top: 21px;
+    width: 289px;
+height: 289px;
+}
+.zag_news{
+    width: 189px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.pod_zag_news{
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.date_news{
+    margin-top: 16px;
+    color: rgb(111, 111, 110);
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 300;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+.desription_news{
+    margin-top: 16px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: left;
+}
+.btn_news{
+   margin-top: 23px;
+    width: 42px;
+height: 42px;
+border: none;
+    background-color: #DC911B;
+    transition: background-color 1s ease-in-out;
+}
+.btn_news:hover{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(220, 145, 27);
+border: 1px solid rgb(220, 145, 27);
+}
+
+.white_news{
+    display: flex;
+    
+    margin-top: 117px;
+    margin-left: 50px;
+}
+.line_news{
+    margin-left: 58px;
+}
+.news_p{
+    width: 228px;
+    margin-left: 50px;
+}
+.btn_with_news{
+    margin-top: 37px;
+    display: flex;
+    justify-content: right;
+}
+.btn_n{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    color: rgb(0, 0, 0);
+font-family:"Roboto", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+
+}
+.btn_with{
+    display: none;
+}
+
+
+.block_questions{
+    margin-top: 134px;
+    margin-left: 3.5px;
+    background-image: url(img/qusti.svg);
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cont_question{
+    display:flex ;
+}
+.ques{
+    margin-top: 81px;
+    background: rgb(255, 224, 176);
+    width: 617px;
+height: 197px;
+
+}
+.text_ques{
+   text-align: center;
+   padding-top: 28px;
+}
+.zag_quest{
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-transform: uppercase;
+}
+.text_quest{
+    margin-top: 11px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+}
+
+.inp_two{
+    margin-top: 30px;
+display: flex;
+justify-content: center;
+
+}
+.inp_name{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgb(220, 145, 27);
+
+
+  color: rgb(62, 62, 61);
+font-family: "Scada", sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.inp_number{
+    margin-left: 54px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(62, 62, 61);
+  
+  
+    color: rgb(62, 62, 61);
+    font-family: "Scada", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.btn_ques{
+    margin-top: 40px;
+  display: flex;
+  justify-content: center;
+}
+.btn_qe{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    width: 161px;
+height: 39px;
+    box-sizing: border-box;
+border: 1px solid rgb(220, 145, 27);
+border-radius: 5px;
+
+
+color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+transition: background-color 1s ease-in-out;
+}
+
+.btn_qe:hover{
+    background-color: #DC911B;
+    color: #FFFFFF;
+}
+.left{
+    width: 122.89px;
+    height: 284.51px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(img/qust_One.png);
+}
+.rigtn{
+    width: 122.89px;
+height: 284.51px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-image: url(img/ques_two.png);
+}
+
+
+.block_article{
+    margin-top: 185px;
+}
+.block_article{
+    display: flex;
+    justify-content: center;
+}
+
+.block_art_txt{
+    margin-top: 90px;
+    
+    display: flex;
+}
+
+.bl_one_art{
+    margin-left: 30px;
+}
+.bl_two_art{
+    margin-left: 53px;
+}
+.zagol_a{
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+
+
+.zoglrt{
+    color: rgb(0, 0, 0);
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+.mini_date{
+    margin-top: 10px;
+    color: rgb(198, 198, 198);
+font-family: "Montserrat", sans-serif;
+font-size: 12px;
+font-weight: 300;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+.title_bl-art{
+    margin-top: 10px;
+    width: 245px;
+    color: rgb(0, 0, 0);
+font-family: "Montserrat", sans-serif;
+font-size: 12px;
+font-weight: 500;
+line-height: 21px;
+letter-spacing: 0%;
+text-align: left;
+}
+.very_block_art{
+display: flex;
+justify-content: right;
+margin-top: 60px;
+}
+
+
+
+.block_certificates{
+    margin-top: 90px;
+    background: rgb(62, 62, 61);
+    width: 100%;
+height: 730px;
+
+}
+.z_ctf{
+    margin-top: 81px;
+    color: rgb(255, 255, 255);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+}
+.img_certf{
+    margin-top: -54px;
+}
+.bl_cont-cert{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.block_clients{
+    margin-top: 57px;
+display: flex;
+justify-content: center;
+}
+
+.z_zlien{
+    margin-left: 207px;
+    color: rgb(0, 0, 0);
+font-family: "Roboto", sans-serif;
+font-size: 36px;
+font-weight: 700;
+line-height: 120%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.clients{
+    margin-top:99px ;
+    background-image: url(img/table.svg);
+
+    
+
+height: 360px;
+  
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.img_clin{
+    margin-top: 60px;
+margin-left: -90px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    width: 100%;
+    justify-content: space-between;
+}
+.cont_img_cl{
+    margin-top: 4px;
+    padding-left: 80px;
+}
+
+
+@media (max-width: 1100px) {
+    .header{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo{
+        margin: 20px ;
+        margin-left: 300px;
+
+    }
+    .burger {
+        display: flex;
+        margin-left: 300px;
+    }
+
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color:#DC911B;
+        animation: awo 0.4s;
+    }
+    @keyframes awo {
+        from {opacity: 0;}
+        to{opacity: 1;}
+        
+    }
+    .nav ul{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .tele{
+        display: none;
+    }
+    .phone{
+       margin-right: 700px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .buy_phone{
+        text-align: left;
+    }
+
+    .blok-welcom{
+ 
+        width: 100%;
+    height: 687px;
+
+    }
+    .text_welcome{
+        margin-left: -300px;
+    }
+    .rte{
+        display: none;
+       
+    }
+    .zagol-one{
+
+        
+        font-size: 25px;
+    }
+   
+    svg{
+        display: none;
+    }
+    .services{
+  margin-top: 502px;
+  margin-left: 340px;
+    }
+    .block_services{
+        background-image: none;
+    
+        
+    }
+   
+   
+    .bilt_title_img_btn{
+        display: block;
+            margin-top: -410px;
+          
+        }
+        .bilt_img{
+            margin-left: -370px;
+        }
+        .bilt_title_btn{
+            margin-top: 80px;
+            margin-left: -500px;
+        }
+        .btn_bilt{
+           
+            justify-content:left;
+        }
+        .bilt_title_img_btn-two{
+            display: block;
+        }
+        .bilt_title_img_btn-three{
+            display: block;
+        }
+        .bilt_title_img_btn-four{
+            display: block;
+        }
+        .mod_img{
+            display: none;
+        }
+        .block_p{
+            margin-top: 96px;
+            display: block;
+            margin-left: -100px;
+        }
+        .block_p_two{
+            margin-top: 96px;
+            display: block;
+            margin-left: -100px;
+        }
+        .titile_btn_proj{
+            display: flex;
+            margin: 109px -40px;
+        }
+        .opiym_title{
+    
+            width: 450px;
+        }
+        .line_news{
+            display: none;
+        }
+        .news_p{
+            display: none;
+        }
+       .btn_with_news{
+        margin-top: 37px;
+       
+       }
+       .block_gray_news{
+      
+        width: 544px;
+    height: 360px;
+  
+    
+    }
+
+    .bl_two_art{
+        margin-left: 10px;
+    }
+.text_block_modul{
+    display: none;
+}
+
+.cont_img_cl{
+   padding-top: 20px;
+}
+.clients{
+    background-image: none;
+}
+}
+@media (max-width: 750px) {
+   
+    .header{
+        display: flex;
+        justify-content: center;
+
+    }
+    .logo{
+        margin: 20px ;
+        margin-left: 200px;
+
+    }
+    .burger {
+        display: flex;
+        margin-left: 100px;
+    }
+
+    .nav{
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        top: 0; 
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 50;
+        overflow-y: auto;
+        padding: 50px 40px;
+        background-color:#DC911B;
+        animation: awo 0.4s;
+    }
+    @keyframes awo {
+        from {opacity: 0;}
+        to{opacity: 1;}
+        
+    }
+    .nav ul{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .tele{
+        display: none;
+    }
+    .phone{
+       margin-right: 700px;
+       width: 200px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .buy_phone{
+        text-align: left;
+    }
+    .bilt_img{
+        margin-left: -470px;
+    }
+    .zg_bilt{
+        width: 234px;
+    }
+    .txt_bilt{
+        width: 410px;
+    }
+    .bilt_title_btn{
+        margin-top: 80px;
+        margin-left: -500px;
+    }
+    .slaider_no_problem{
+        display: flex;
+        justify-content: center;
+    }
+    .modul_img{
+        display: none;
+    }
+    .btn_slaider{
+        margin-left: 200px;
+        margin-top: 40px;
+        display: block;
+     }
+     .see_you{
+        margin-top: 20px;
+        margin-left: -250px;
+     }
+     .op{
+        margin-left: -50px;
+     }
+     .block_p{
+        margin-top: 96px;
+        display: block;
+        margin-left: -200px;
+    }
+    .block_p_two{
+        margin-top: 96px;
+        display: block;
+        margin-left: -200px;
+    }
+    .titile_btn_proj{
+        display: flex;
+        margin: 109px -50px;
+    }
+    .opiym_title{
+
+        width: 450px;
+    }
+    .btn_opiym{
+        margin-left: 20px;
+    }
+    .block_projects{
+        margin: 76px 270px;
+    }
+    .block_img_proj{
+        position: block;
+      
+        width: 500px;
+    height: 312px;
+       
+    }
+    .block_img_proj_cart{
+        position: block;
+      
+        width: 500px;
+    height: 312px;
+    }
+    .butn_rt{
+        margin-left: -100px;
+    }
+    .news_pet{
+        display: none;
+    }
+    .whd{
+        width: 100%;
+    }
+    .btn_with_news{
+      display: none;
+       }
+.btn_with{
+    display: block;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+
+
+
+.block_questions{
+   margin-top: 100px;
+   background-image: none;
+    
+}
+
+.cont_question{
+    display:flex ;
+}
+.ques{
+    margin-top: 81px;
+    background: rgb(255, 224, 176);
+    width: 617px;
+height: 197px;
+
+}
+.left{
+    background-image: none;
+}
+.rigtn{
+    background-image: none; 
+}
+.clients{
+    background-image: none;
+}
+
+}
+
+@media (max-width: 660px){
+    .text_modul{
+        display: none;
+    }
+    .cont_img_cl{
+        margin-left: 50px;
+        margin-top: 30px;
+        padding-left: 10px;
+    }
+}

@@ -1,0 +1,230 @@
+.footer{
+    margin-top: 93px;
+    width: 100%;
+    height: 383px;
+    background: rgb(62, 62, 61);
+}
+.cont_footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.txt_footer{
+    display: flex;
+}
+.zagol_me-footer{
+    color: rgb(255, 255, 255);
+font-family: "Montserrat", sans-serif;
+font-size: 15px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0%;
+text-align: left;
+}
+.type{
+    margin-top:31px ;
+}
+.txt_one-footer{
+    margin-top:7px ;
+    color: rgb(119, 126, 137);
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: left;
+}
+.block_me-two{
+    margin-left: 159px;
+}
+.block_me-three{
+    margin-left: 200px;
+}
+.block_search{
+    margin-left: 184px;
+}
+.footer_search{
+    display: flex;
+}
+.search{
+    width: 420px;
+height: 43px;
+    background: transparent;
+    box-sizing: border-box;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 3px;
+
+padding: 18px 12px;
+
+}
+.icon_s{
+    margin-left: -25px;
+padding-top: 14px;
+}
+.title_search_one{
+    display: flex;
+}
+
+.title-block_search{
+    margin-top: 34px;
+}
+.email{
+    display: flex;
+}
+.txit_email{
+    color: rgb(255, 255, 255);
+font-family:"Montserrat", sans-serif;
+margin-left: 10px;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
+.icon_email{
+    width: 16px;
+height: 13px;
+}
+.telephone{
+    margin-left: 104px;
+    display: flex;
+}
+.icon_phone{
+    width: 16px;
+height: 16px;
+}
+.txot_phone{
+    margin-left: 10px;
+    color: rgb(255, 255, 255);
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: left;
+}
+.title_search_two{
+    display: flex;
+}
+.map{
+    margin-top: 22px;
+    display: flex;
+}
+.icon_map{
+    width: 14px;
+height: 18px;
+}
+.txot_map{
+    margin-left: 11px;
+    color: rgb(255, 255, 255);
+font-family:"Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+}
+.svazi{
+    margin: 15px 125px ;
+}
+.svazi_search{
+    border: none;
+    border-radius: 3px;
+    width: 175px;
+    height: 41px;
+background: rgb(253, 153, 19);
+
+color: rgb(255, 255, 255);
+font-family: "Montserrat", sans-serif;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+letter-spacing: 0%;
+text-align: center;
+transition: background-color 1s ease-in-out;
+}
+.svazi_search:hover{
+    background: transparent;
+border: 1px solid rgb(220, 145, 27);
+color: rgb(0, 0, 0);
+}
+
+
+.line_footer{
+
+    margin-top: 54px;
+   
+    margin-left: 360px;
+}
+
+.reclama_footer{
+    display: flex;
+    margin-top: 25px;
+}
+
+.year_footer{
+    color: rgb(119, 126, 137);
+font-family: "Montserrat", sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+}
+.logo_intec{
+    margin-left: 288px;
+}
+
+@media (max-width: 1100px) {
+    .block_me-two{
+        margin-left: 59px;
+    }
+    .block_me-three{
+        margin-left: 60px;
+    }
+    .block_search{
+        margin-left: 84px;
+    }
+    .line_footer{
+
+        margin-top: 4px;
+       
+        margin-left: 30px;
+    }
+    svg{
+        display: block;
+    }
+.svg_line{
+    width: 900px;
+}
+.logo_intec{
+    margin-left: 170px;
+}
+
+}
+
+@media (max-width: 750px) {
+    .footer{
+        margin-top: 400px;
+        height: 583px;
+    }
+    .cont_footer{
+        display: block;
+       
+        
+    }
+    .txt_footer{
+        display: flex;
+        justify-content: center;
+    }
+    .block_search{
+        margin-top: 30px;
+    }
+    .svg_line{
+        width: 530px;
+    }
+    .logo_intec{
+        margin-left: 30px;
+    }
+}
